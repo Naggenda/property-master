@@ -16,6 +16,18 @@
   }
 }
 
+.img{
+  margin-bottom: 10px;
+}
+
+.img img{
+  width: 100%;
+}
+
+.img-display{
+  padding-top: 60px;
+}
+
 /* navbar section */
 .navbar-section {
   background: black;
@@ -53,6 +65,12 @@
 /* intro section */
 .intro-sect {
   height: 200px;
+  background-color: rgb(12, 32, 12);
+  color: white;
+}
+
+.intro-sect2 {
+  height: 300px;
   background-color: rgb(12, 32, 12);
   color: white;
 }
