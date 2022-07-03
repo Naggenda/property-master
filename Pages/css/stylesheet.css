@@ -274,6 +274,10 @@ footer {
     margin-top: 10px;
   }
 
+  .map{
+    padding-left: 0px;
+  }
+
   footer {
     text-align: center;
   }
