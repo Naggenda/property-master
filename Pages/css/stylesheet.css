@@ -16,15 +16,15 @@
   }
 }
 
-.img{
+.img {
   margin-bottom: 10px;
 }
 
-.img img{
+.img img {
   width: 100%;
 }
 
-.img-display{
+.img-display {
   padding-top: 60px;
 }
 
@@ -37,6 +37,7 @@
   width: 100%;
   z-index: 1;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,8 +48,8 @@
   display: none;
 }
 
-.navlinks{
-    display: flex;
+.navlinks {
+  display: flex;
 }
 
 .navlinks a {
@@ -61,6 +62,8 @@
 .navlinks a:hover {
   color: tomato;
 }
+
+
 
 /* intro section */
 .intro-sect {
@@ -96,12 +99,12 @@
   background-color: tomato;
 }
 
-.site-main .project-area .button-group button + button {
+.site-main .project-area .button-group button+button {
   /* padding-left: 3rem; */
   text-align: center;
 }
 
-.site-main .project-area .grid .our-project > .title h4 {
+.site-main .project-area .grid .our-project>.title h4 {
   font: normal 700 25px/12px var(--roboto);
 }
 
@@ -134,6 +137,7 @@
 .element-item {
   padding: 10px 15px;
 }
+
 /* end project area */
 
 .anem-title {
@@ -163,6 +167,7 @@
 .footer-text {
   color: white;
 }
+
 .links {
   display: flex;
   flex-direction: column;
@@ -178,15 +183,51 @@ footer {
   background-color: black;
 }
 
+.btn-sect button {
+  padding: 10px;
+  border-radius: 10px
+}
+
+.intro-sect3 {
+  /* padding: 300px 0; */
+  padding: 30px;
+  color: white;
+  text-align: center;
+  background-color: rgb(12, 32, 12);
+}
+
+.main-text {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-desc {
+  position: relative;
+}
+
+.text-area {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 0 15px;
+}
+
 @media screen and (max-width: 480px) {
   .humberg {
     display: block;
   }
+
   .navbar {
     display: flex;
     justify-content: space-between;
     position: relative;
   }
+
   .navlinks {
     display: none;
     background-color: cadetblue;
@@ -197,9 +238,11 @@ footer {
     width: 100%;
     flex-direction: column;
   }
+
   .intro-header {
     padding: 110px 0;
   }
+
   .card {
     width: 100%;
     box-shadow: 0 0 4px;
