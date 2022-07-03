@@ -278,6 +278,14 @@ footer {
     padding-left: 0px;
   }
 
+  .mapouter{
+    width: 100% !important;
+  }
+
+  .gmap_canvas{
+    width: 100% !important;
+  }
+
   footer {
     text-align: center;
   }
